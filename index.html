@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Shining</title>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" href="css/home.css" />
+		
+	</head>
+	<body>
+		<!--总容器-->
+		<div id="wrap">
+			<!--头部-->
+			<div id="head">
+				<!--头部内容-->
+				<div id="headWrap">
+					<a href="#">
+						<img src="img/7.png"/>
+					</a>
+				</div>
+				<!--导航栏-->
+				<ul id="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Rendering</a></li>
+					<li><a href="#">3D Animation</a></li>
+					<li><a href="#">Bim</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div id="con">
+			<div class="conta">
+				<a href="">
+					<img src="img/1.png" alt="">
+					<img src="img/2.png" alt="">
+				</a>
+				<li></li>
+				<div class='div1'>
+					<a href="">
+						<h3>RENDERINGS</h3>
+						<p>Masterplan、Public Building、commercial Building、Residential Building、Landscape Design</p>
+					</a>
+				</div>
+
+			</div>
+			<div class="conta">
+				<div class="div1">
+					<a href="###"style="text-align:right">
+						<h3 >BIM</h3>
+						<p>Model Completion、Clash Detection、MEP Integration、Curtain Wall Remedying、BIM Consulting</p>
+					</a>
+				</div>
+				<li></li>
+				<a href="">
+					<img src="img/3.jpg" alt="">
+					<img src="img/4.png" alt="">
+				</a>
+			</div>
+			<div class="conta">
+				<a href="">
+					<img src="img/5.jpg" alt="">
+					<img src="img/6.jpg" alt="">
+				</a>
+				<li></li>
+				<div class='div1'>
+					<a href="">
+						<h3>RENDERINGS</h3>
+						<p>Masterplan、Public Building、commercial Building、Residential Building、Landscape Design</p>
+					</a>
+				</div>
+
+			</div>
+		</div>
+			<!--结尾部分-->
+			<div id="footer">
+					<div class="footer_wrap1">
+						<div class="j_share">
+							<a href="###"><img src="img/mail_h.jpg"alt="" id="mail"></a>
+							<a href="###"><img src="img/001.jpg"alt="" id="mail_h"></a>
+						</div>
+						<div class="share_other">
+							<div class="share_wrap">
+								<a href="#">
+									<img src="img/020.jpg">
+									<img src="img/002.jpg" id="facebook_h">
+								</a>
+								<a href="#">
+									<img src="img/030.jpg">
+									<img src="img/003.jpg" id="youtobe_h">
+								</a>
+								<a href="#">
+									<img src="img/040.jpg">
+									<img src="img/004.jpg" id="link_h">
+								</a>
+								<a href="#">
+									<img src="img/050.jpg">
+									<img src="img/005.jpg" id="twitter_h">
+								</a>
+							</div>
+						</div>
+						<div class="j_footer">
+							<span class="j_copyright">Copyright © 1998-2015 shining Group</span>
+						</div>
+					</div>	
+				</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script>
+	//li小条的颜色改变
+	$('.conta').mouseover(function(){
+		$(this).find('li').css({background:'rgb(207,219,0)'})
+	}).mouseout(function(){
+		$(this).find('li').css({background:'#ccc'})
+	})
+	//显示图片
+	$('.conta img').hover(function(){
+		$(this).toggle().siblings().toggle();
+	})
+	</script>
+</html>
