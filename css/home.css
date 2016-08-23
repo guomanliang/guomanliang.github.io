@@ -1,0 +1,99 @@
+/* 标签样式初始化 */
+	body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+	form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+	img{border:0;}
+	ul,li{list-style-type:none;}
+	a{color:#00007F;text-decoration:none;}
+	a:hover{text-decoration:none;}
+#wrap{
+	width: 100%;
+	/*height: 764px;*/
+	position: relative;
+	}
+#head{
+	width: 100%;
+	height: 68px;
+	background: rgb(27,27,27);
+	position: absolute;
+}
+#headWrap{
+	float: left;
+	margin-left: 50px;
+}
+#headWrap img{
+	width: 150px;
+	height: 33px;
+	line-height: 33px;
+	margin-top: 16px;
+	float: left;
+}
+#nav{
+	width: 100%;
+	height: 68px;
+	margin-left: 40%;
+}
+#nav li{
+	margin-right: 45px;
+	display: inline-block;
+	font-size: 16px;
+	color: white;
+	margin-top: 22px;
+	border-radius: 5px;
+}
+#nav li a{
+	width: 100%;
+	height: 100%;
+	color: #A8A8A8;
+	padding: 4px 8px;
+	-webkit-tap-highlight-color:transparent;
+	border-radius: 5px;
+}
+#nav li:hover a{
+	border: 1px solid rgb(176,176,176);
+	color: white;
+}
+#con{
+	width: 990px;
+	margin:0 auto;
+	position:relative;
+	top: 68px;
+	}
+#con .conta{
+	width: 100%;
+	height: 180px;
+	border-bottom:1px solid #ccc;
+	}
+#con .conta img{
+	width: 588px;
+	height: 180px;
+	float:left;
+	cursor: pointer;
+	display:none;
+	}
+	/*获取.conta中的第一个img*/
+#con .conta img:nth-child(1){
+	display:block;
+	}
+#con li{
+	width: 20px;
+	height: 180px;
+	background:#ccc;
+	float:left;
+	}
+.div1{
+	width: 340px;
+	height: 150px;
+	padding-left: 20px;
+	padding-top:30px;
+	padding-right:20px;
+	line-height:30px;
+	float:left;
+	}
+.div1 h3{
+	font-size: 30px;
+	color: black;
+}
+.div1 p{
+	font-family: Arial,sans-serif,Microsoft YaHei;
+	color: black;
+}
